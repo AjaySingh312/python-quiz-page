@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F0E4D3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quiz{
+    background-color: #DCC5B2;
+    height: 80vh;
+    width: 70vw;
+    border-radius: 7%;
+    display: flex;
+    justify-content: center;
+}
+.question{
+    height: 70vmin;
+    width: 80vmin;
+    margin-top: 5vmin;
+    margin-left: 10vmin;
+    
+}
+
+.timer{
+    background-color: #D9A299;
+    height: 20vmin;
+    width: 20vmin;
+    font-size: 17vmin;
+    border-radius: 50%;
+    /* margin-left: 5vmin; */
+}
+h1{
+    font-size: 10vmin;
+}
+.heading{
+    margin-top: 10vmin;
+    font-size: 15vmin;
+}
+
+.btn{
+    font-size: 4vmin;
+    padding: 0.5vmin;
+    padding-left: 1.5vmin;
+    padding-right: 1.5vmin;
+    background-color: #DCD0A8;
+    border-radius: 1.5vmin;
+    margin-top: 3vmin;
+    margin-bottom: 3vmin;
+}
+.para{
+    font-size: 8vmin;
+}
+
+.hide{
+    display: none;
+}
+.newques{
+    font-size: 7vmin;
+}
+
+.hide2{
+    display: none;
+}
+
+.opt{
+    margin: 2vmin;
+    font-size: 5vmin;
+}
+
+input[type="radio"] {
+  transform: scale(1.5); /* Increase size */
+  margin-right: 2vmin;    /* Optional: Add space between button and label */
+    vertical-align: middle;
+
+}
+label {
+    
+  display: flex;
+  align-items: center;
+  gap: 2vmin;
+  margin-bottom: 2vmin;
+}
+.info{
+    font-size: 7vmin;
+}
+
+
+
+
+@media (max-width: 1358px) and (min-width: 610px) {
+  .para{
+    font-size: 5vmin;
+}
+.heading{
+   
+    font-size: 10vmin;
+}
+
+.quiz{
+    height: 100vh;
+}
+}
+
